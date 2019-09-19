@@ -1,0 +1,353 @@
+1. date
+	
+   D:\>date /t
+Wed 09/18/2019
+
+2. dir
+
+C:\Users\Fahry>dir/p
+ Volume in drive C has no label.
+ Volume Serial Number is 265E-7A9D
+
+ Directory of C:\Users\Fahry
+
+09/16/2019  01:23 PM    <DIR>          .
+09/16/2019  01:23 PM    <DIR>          ..
+10/28/2018  10:37 AM    <DIR>          .anaconda
+11/18/2018  09:57 PM    <DIR>          .android
+03/05/2019  08:36 PM    <DIR>          .AndroidStudio3.2
+12/13/2018  12:26 PM             1,995 .bash_history
+05/01/2019  05:40 PM            18,854 .boto
+10/28/2018  01:26 PM    <DIR>          .conda
+10/28/2018  01:21 PM                43 .condarc
+09/16/2019  01:23 PM    <DIR>          .eclipse
+12/13/2018  12:12 PM                50 .gitconfig
+05/01/2019  05:40 PM    <DIR>          .gsutil
+10/28/2018  10:39 AM    <DIR>          .ipython
+09/16/2019  01:23 PM    <DIR>          .jmc
+11/25/2018  01:55 PM    <DIR>          .m2
+10/28/2018  10:40 AM    <DIR>          .matplotlib
+09/17/2019  01:26 AM    <DIR>          .nbi
+11/25/2018  01:53 PM    <DIR>          .netbeans
+01/02/2019  11:01 AM    <DIR>          .pencil
+Press any key to continue . . .
+
+3.  IpConfig
+
+C:\Users\Fahry>ipconfig
+
+Windows IP Configuration
+
+
+Ethernet adapter Local Area Connection:
+
+   Media State . . . . . . . . . . . : Media disconnected
+   Connection-specific DNS Suffix  . :
+
+Wireless LAN adapter Wireless Network Connection 3:
+
+   Media State . . . . . . . . . . . : Media disconnected
+   Connection-specific DNS Suffix  . :
+
+Wireless LAN adapter Wireless Network Connection 2:
+
+   Media State . . . . . . . . . . . : Media disconnected
+   Connection-specific DNS Suffix  . :
+
+Wireless LAN adapter Wireless Network Connection:
+
+   Connection-specific DNS Suffix  . :
+   Link-local IPv6 Address . . . . . : fe80::94d:3a1b:58fa:ecff%1
+   IPv4 Address. . . . . . . . . . . : 192.168.43.75
+   Subnet Mask . . . . . . . . . . . : 255.255.255.0
+   Default Gateway . . . . . . . . . : 192.168.43.1
+
+Ethernet adapter Bluetooth Network Connection:
+
+   Media State . . . . . . . . . . . : Media disconnected
+   Connection-specific DNS Suffix  . :
+
+Tunnel adapter isatap.{F796C467-EBFA-42FE-AB3A-63F351E254F9}:
+
+   Media State . . . . . . . . . . . : Media disconnected
+   Connection-specific DNS Suffix  . :
+
+Tunnel adapter isatap.{1C783089-E730-48A8-BBD2-4728A685ADBF}:
+
+   Media State . . . . . . . . . . . : Media disconnected
+   Connection-specific DNS Suffix  . :
+
+Tunnel adapter Teredo Tunneling Pseudo-Interface:
+
+   Media State . . . . . . . . . . . : Media disconnected
+   Connection-specific DNS Suffix  . :
+
+4.  help
+
+C:\Users\Fahry>help
+For more information on a specific command, type HELP command-name
+ASSOC          Displays or modifies file extension associations.
+ATTRIB         Displays or changes file attributes.
+BREAK          Sets or clears extended CTRL+C checking.
+BCDEDIT        Sets properties in boot database to control boot loading.
+CACLS          Displays or modifies access control lists (ACLs) of files.
+CALL           Calls one batch program from another.
+CD             Displays the name of or changes the current directory.
+CHCP           Displays or sets the active code page number.
+CHDIR          Displays the name of or changes the current directory.
+CHKDSK         Checks a disk and displays a status report.
+CHKNTFS        Displays or modifies the checking of disk at boot time.
+CLS            Clears the screen.
+CMD            Starts a new instance of the Windows command interpreter.
+COLOR          Sets the default console foreground and background colors.
+COMP           Compares the contents of two files or sets of files.
+COMPACT        Displays or alters the compression of files on NTFS partitions.
+CONVERT        Converts FAT volumes to NTFS.  You cannot convert the
+
+5.mkdir
+ 
+C:\Users\Fahry>mkdir 
+C:\Users\Fahry>mkdir coba
+
+C:\Users\Fahry>dir coba
+ Volume in drive C has no label.
+ Volume Serial Number is 265E-7A9D
+
+ Directory of C:\Users\Fahry\coba
+
+09/18/2019  08:52 PM    <DIR>          .
+09/18/2019  08:52 PM    <DIR>          ..
+               0 File(s)              0 bytes
+               2 Dir(s)  434,918,182,912 bytes free
+
+6. ping
+
+Pinging forcesafesearch.google.com [216.239.38.120] with 32 bytes of data:
+Reply from 216.239.38.120: bytes=32 time=54ms TTL=51
+Reply from 216.239.38.120: bytes=32 time=139ms TTL=51
+Reply from 216.239.38.120: bytes=32 time=85ms TTL=51
+Reply from 216.239.38.120: bytes=32 time=54ms TTL=51
+
+Ping statistics for 216.239.38.120:
+    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+
+
+7. echo  
+
+ C:\Users\Fahry>echo "muhammad fahry" >fahri.txt
+
+C:\Users\Fahry>dir fahri.txt
+ Volume in drive C has no label.
+ Volume Serial Number is 265E-7A9D
+
+ Directory of C:\Users\Fahry
+
+09/18/2019  09:20 PM                19 fahri.txt
+               1 File(s)             19 bytes
+               0 Dir(s)  434,917,535,744 bytes free
+
+
+8. type
+
+C:\Users\Fahry>type fahri.txt
+"muhammad fahry"
+
+
+9. copy
+
+C:\Users\Fahry>copy fahri.txt coba
+        1 file(s) copied.
+
+C:\Users\Fahry>dir coba
+ Volume in drive C has no label.
+ Volume Serial Number is 265E-7A9D
+
+ Directory of C:\Users\Fahry\coba
+
+09/18/2019  09:28 PM    <DIR>          .
+09/18/2019  09:28 PM    <DIR>          ..
+09/18/2019  09:20 PM                19 fahri.txt
+               1 File(s)             19 bytes
+               2 Dir(s)  434,917,531,648 bytes free
+
+
+10. del
+
+C:\Users\Fahry\coba>del fahri.txt
+
+11. cd..
+
+C:\Users\Fahry\coba>cd..
+
+C:\Users\Fahry>
+
+
+12. echo
+
+C:\Users\Fahry>echo "muhammad fahri"
+"muhammad fahri"
+
+
+13. cd\
+
+C:\Users\Fahry>cd\
+
+C:\>
+
+
+14. Netstat
+
+
+C:\Users\Fahry>netstat
+
+Active Connections
+
+  Proto  Local Address          Foreign Address        State
+  TCP    192.168.43.75:49242    34.210.241.6:https     ESTABLISHED
+  TCP    192.168.43.75:49397    74.125.68.188:https    ESTABLISHED
+  TCP    192.168.43.75:49448    5.45.62.54:http        ESTABLISHED
+
+
+15. ipconfig /?
+
+C:\Users\Fahry>ipconfig /?
+
+USAGE:
+    ipconfig [/allcompartments] [/? | /all |
+                                 /renew [adapter] | /release [adapter] |
+                                 /renew6 [adapter] | /release6 [adapter] |
+                                 /flushdns | /displaydns | /registerdns |
+                                 /showclassid adapter |
+                                 /setclassid adapter [classid] |
+                                 /showclassid6 adapter |
+                                 /setclassid6 adapter [classid] ]
+
+where
+    adapter             Connection name
+                       (wildcard characters * and ? allowed, see examples)
+
+    Options:
+       /?               Display this help message
+       /all             Display full configuration information.
+       /release         Release the IPv4 address for the specified adapter.
+       /release6        Release the IPv6 address for the specified adapter.
+       /renew           Renew the IPv4 address for the specified adapter.
+       /renew6          Renew the IPv6 address for the specified adapter.
+       /flushdns        Purges the DNS Resolver cache.
+       /registerdns     Refreshes all DHCP leases and re-registers DNS names
+       /displaydns      Display the contents of the DNS Resolver Cache.
+       /showclassid     Displays all the dhcp class IDs allowed for adapter.
+       /setclassid      Modifies the dhcp class id.
+       /showclassid6    Displays all the IPv6 DHCP class IDs allowed for adapter
+.
+       /setclassid6     Modifies the IPv6 DHCP class id.
+
+
+The default is to display only the IP address, subnet mask and
+default gateway for each adapter bound to TCP/IP.
+
+For Release and Renew, if no adapter name is specified, then the IP address
+leases for all adapters bound to TCP/IP will be released or renewed.
+
+For Setclassid and Setclassid6, if no ClassId is specified, then the ClassId is
+removed.
+
+Examples:
+    > ipconfig                       ... Show information
+    > ipconfig /all                  ... Show detailed information
+    > ipconfig /renew                ... renew all adapters
+    > ipconfig /renew EL*            ... renew any connection that has its
+                                         name starting with EL
+    > ipconfig /release *Con*        ... release all matching connections,
+                                         eg. "Local Area Connection 1" or
+                                             "Local Area Connection 2"
+    > ipconfig /allcompartments      ... Show information about all
+                                         compartments
+    > ipconfig /allcompartments /all ... Show detailed information about all
+                                         compartments
+
+16. cmd
+
+C:\Users\Fahry>cmd
+Microsoft Windows [Version 6.1.7601]
+Copyright (c) 2009 Microsoft Corporation.  All rights reserved.
+
+17.cd c:
+
+C:\Users\Fahry>cd d:
+D:\
+
+C:\Users\Fahry>d:
+
+D:\>dir
+ Volume in drive D is Local Disk
+ Volume Serial Number is 4661-49A6
+
+ Directory of D:\
+
+07/07/2018  11:56 PM    <DIR>          1411510942_MUHAMMAD FAHRY
+01/19/2016  10:14 AM             6,589 2016.01.19-seller-563.xlsx
+12/04/2017  12:19 PM    <DIR>          6c181cf9de44823f257429fcbf
+04/12/2017  07:59 AM    <DIR>          a15b5df93547eb8c35fc
+09/16/2019  10:39 AM    <DIR>          apache
+07/07/2018  11:35 PM    <DIR>          app
+08/21/2019  12:15 PM            23,501 bab3hal14.docx
+07/07/2018  11:46 PM    <DIR>          backaup
+07/12/2018  10:47 PM    <DIR>          belajar
+09/18/2019  03:50 PM    <DIR>          belajarcmd
+01/19/2016  04:29 PM            14,335 Brand after.png
+01/19/2016  04:29 PM            15,588 Brand before.png
+
+18. REN
+
+D:\>REN test.txt belajar.txt
+
+D:\>dir
+ Volume in drive D is Local Disk
+ Volume Serial Number is 4661-49A6
+
+ Directory of D:\
+
+07/07/2018  11:56 PM    <DIR>          1411510942_MUHAMMAD FAHRY
+01/19/2016  10:14 AM             6,589 2016.01.19-seller-563.xlsx
+12/04/2017  12:19 PM    <DIR>          6c181cf9de44823f257429fcbf
+04/12/2017  07:59 AM    <DIR>          a15b5df93547eb8c35fc
+09/16/2019  10:39 AM    <DIR>          apache
+07/07/2018  11:35 PM    <DIR>          app
+08/21/2019  12:15 PM            23,501 bab3hal14.docx
+07/07/2018  11:46 PM    <DIR>          backaup
+07/12/2018  10:47 PM    <DIR>          belajar
+01/19/2016  04:47 PM               558 belajar.txt
+
+19. Hostname 
+
+C:\Users\Fahry>hostname
+Fahry-PC
+
+20. exit
+
+C:\Users\Fahry>exit/b
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
